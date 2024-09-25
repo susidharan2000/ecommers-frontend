@@ -1,5 +1,5 @@
 import React from 'react';
-import Bagimg from '/Users/susidharan/GUVI WEB development/Fullstack/E-commersApp/ecommers-frontend/src/assets/Shopping-Bag-PNG-Image-4229042207_processed.png';
+import Bagimg from '../assets/image.png';
 
 const Home = () => {
     return (
