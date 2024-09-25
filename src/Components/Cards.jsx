@@ -10,7 +10,7 @@ const Cards = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get('http://localhost:4000/api/product/getallproduct');
+                const response = await axios.get('https://ecommers-backend-0h9u.onrender.com/api/product/getallproduct');
                 setProducts(response.data.result);
             } catch (error) {
                 console.error(error);

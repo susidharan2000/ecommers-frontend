@@ -23,7 +23,7 @@ const Header = () => {
         const fetchsearchProduct = async () => {
             try {
                 if (query.length === 0 || query.length > 2) {
-                    const res = await axios.get(`http://localhost:4000/api/product/searchproduct?q=${query}`);
+                    const res = await axios.get(`https://ecommers-backend-0h9u.onrender.com/api/product/searchproduct?q=${query}`);
                     setsearchData(res.data);
                 } 
             } catch (error) {

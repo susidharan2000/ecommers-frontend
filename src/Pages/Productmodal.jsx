@@ -13,7 +13,7 @@ const Productmodal = () => {
     useEffect(() => {
         const fetchProduct = async () => {
             try {
-                const response = await axios.get(`http://localhost:4000/api/product/getproductbyid/${id}`);
+                const response = await axios.get(`https://ecommers-backend-0h9u.onrender.com/api/product/getproductbyid/${id}`);
                 setProduct(response.data.result);
             } catch (error) {
                 console.error(error);
